@@ -10,6 +10,7 @@
     "dropzone": "*",
     "stylus": "*",
     "jade":  "*",
-    "nib": "*"
+    "nib": "*",
+    "mkpath": "*"
   }
 }

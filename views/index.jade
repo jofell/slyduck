@@ -4,9 +4,7 @@ block extra_head
   link(rel='stylesheet', href='/static/css/basic.css')
   script(src='/static/js/dropzone.min.js')
 block content
-  form(action="...", method="post", enctype="multipart/form-data", 
-       class="dropzone")
-    input(type="file", name="displayImage")
+  form(action="/grab", method="post", enctype="multipart/form-data",  class="dropzone clickable")
 block sidebar
   .widget
     h1 Widget
